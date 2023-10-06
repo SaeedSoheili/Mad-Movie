@@ -7,7 +7,7 @@
   align-items: center;
   transition: 0.3s;
   top: 10px;
-  z-index: 2;
+  z-index: 3;
 }
 
 .navbar__container.sticky {
