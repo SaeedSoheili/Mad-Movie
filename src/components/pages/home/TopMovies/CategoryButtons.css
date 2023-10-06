@@ -7,6 +7,12 @@
     position: relative;
     border-radius: 5px;
     margin: 0 10px;
+    transition: 0.5s;
+}
+
+.category__select-btn:hover {
+    background-color: #1f1e1e;
+    transition: 0.5s;
 }
 
 .category__select-btn:focus::before , .category__select-btn:focus::after {

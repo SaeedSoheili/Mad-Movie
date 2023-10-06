@@ -1,9 +1,11 @@
 .topmovies__container {
     background-color: #12101B;
-    height: 1500px;
+    height: auto;
     width: 100%;
     position: relative;
     padding-top: 70px;
+    z-index: 1;
+    padding-bottom: 50px;
 }
 
 .topmovies__subtitle {
@@ -31,6 +33,9 @@
     display: flex;
     height: auto;
     width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
     justify-content: space-around;
     margin-top: 70px;
+    flex-wrap: wrap;
 }

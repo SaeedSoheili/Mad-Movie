@@ -16,6 +16,12 @@ export default function TopMovies() {
         </div>
         <div className='topmovies__movies-list--box'>
           <MovieTopMovies/>
+          <MovieTopMovies/>
+          <MovieTopMovies/>
+          <MovieTopMovies/>
+          <MovieTopMovies/>
+          <MovieTopMovies/>
+
         </div>
     </div>
   )
