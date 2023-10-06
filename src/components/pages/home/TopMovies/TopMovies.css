@@ -1,0 +1,36 @@
+.topmovies__container {
+    background-color: #12101B;
+    height: 1500px;
+    width: 100%;
+    position: relative;
+    padding-top: 70px;
+}
+
+.topmovies__subtitle {
+    color: #E2D703;
+    font-size: 15px;
+    text-align: center;
+}
+
+.topmovies__title {
+    color: #fff;
+    font-size: 32px;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 900;
+}
+
+.topmovies__categories {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.topmovies__movies-list--box {
+    display: flex;
+    height: auto;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 70px;
+}

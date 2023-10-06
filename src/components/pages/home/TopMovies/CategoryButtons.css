@@ -1,0 +1,32 @@
+.category__select-btn {
+    padding: 17px 25px;
+    color: #CECACA;
+    background-color: #0A0F0F;
+    border: none;
+    font-weight: 900;
+    position: relative;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+
+.category__select-btn:focus::before , .category__select-btn:focus::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: yellow;
+    width: 2px;
+    height: 15px;
+}
+
+.category__select-btn:focus::before {
+    left: 0px;
+}
+
+.category__select-btn:focus::after {
+    right: 0px;
+}
+
+.category__select-btn:focus {
+    color: #E2D703;
+}
