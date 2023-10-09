@@ -3,6 +3,7 @@ import "./Home.css";
 import NavBar from "./NavBar/NavBar";
 import Slider from "./Slider/Slider";
 import TopMovies from "./TopMovies/TopMovies";
+import OurServices from "./OurServices/OurServices";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <NavBar />
       <Slider />
       <TopMovies />
+      <OurServices />
     </div>
   );
 }
