@@ -1,38 +1,39 @@
 .category__select-btn {
-    padding: 17px 25px;
-    color: #CECACA;
-    background-color: #0A0F0F;
-    border: none;
-    font-weight: 900;
-    position: relative;
-    border-radius: 5px;
-    margin: 0 10px;
-    transition: 0.5s;
+  padding: 17px 25px;
+  color: #cecaca;
+  background-color: #0a0f0f;
+  border: none;
+  font-weight: 900;
+  position: relative;
+  border-radius: 5px;
+  margin: 0 10px;
+  transition: 0.5s;
 }
 
 .category__select-btn:hover {
-    background-color: #1f1e1e;
-    transition: 0.5s;
+  background-color: #1f1e1e;
+  transition: 0.5s;
 }
 
-.category__select-btn:focus::before , .category__select-btn:focus::after {
-    content: "";
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background: yellow;
-    width: 2px;
-    height: 15px;
+.category__select-btn:focus::before,
+.category__select-btn:focus::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: yellow;
+  width: 2px;
+  height: 15px;
 }
 
 .category__select-btn:focus::before {
-    left: 0px;
+  left: 0px;
 }
 
 .category__select-btn:focus::after {
-    right: 0px;
+  right: 0px;
 }
 
 .category__select-btn:focus {
-    color: #E2D703;
+  color: #e2d703;
 }

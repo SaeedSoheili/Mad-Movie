@@ -1,47 +1,45 @@
 .topmovies__container {
-    background-color: #12101B;
-    height: auto;
-    width: 100%;
-    position: relative;
-    padding-top: 70px;
-    z-index: 1;
-    padding-bottom: 50px;
+  background-color: #12101b;
+  height: auto;
+  width: 100%;
+  position: relative;
+  padding-top: 70px;
+  z-index: 1;
+  padding-bottom: 50px;
 }
 
 .topmovies__subtitle {
-    color: #E2D703;
-    font-size: 15px;
-    text-align: center;
+  color: #e2d703;
+  font-size: 15px;
+  text-align: center;
 }
 
 .topmovies__title {
-    color: #fff;
-    font-size: 32px;
-    text-align: center;
-    margin-top: 20px;
-    font-weight: 900;
+  color: #fff;
+  font-size: 32px;
+  text-align: center;
+  margin-top: 20px;
+  font-weight: 900;
 }
 
 .topmovies__categories {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
-    position: relative;
-    z-index: 1;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  position: relative;
+  z-index: 1;
 }
 
 .topmovies__movies-list--box {
-    display: flex;
-    height: auto;
-    width: 100%;
-    max-width: 1000px;
-    margin: 0 auto;
-    justify-content: space-around;
-    padding-top: 70px;
-    flex-wrap: wrap;
-    position: relative;
-    z-index: 1;
-
+  display: flex;
+  height: auto;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  justify-content: space-around;
+  padding-top: 70px;
+  flex-wrap: wrap;
+  position: relative;
+  z-index: 1;
 }

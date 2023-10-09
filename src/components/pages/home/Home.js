@@ -9,7 +9,7 @@ export default function Home() {
     <div className="home__container">
       <NavBar />
       <Slider />
-      <TopMovies/>
+      <TopMovies />
     </div>
   );
 }
