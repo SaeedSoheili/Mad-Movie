@@ -1,0 +1,115 @@
+.footernavbar__container {
+  width: 100%;
+  height: 280px;
+  background-image: url("/public/assets/footer-bg.jpg");
+  padding: 0 30px;
+  padding-top: 70px;
+}
+
+.footernavbar__box-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footernavbar__box-1--left {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.footernavbar__box-1--right {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.footernavbar__box-1--left--logo-image {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.footernavbar__box-1--left--logo-name {
+  color: #fff;
+  font-size: 23px;
+  font-weight: 700;
+}
+
+.footernavbar__box-1--right--menu {
+  display: flex;
+  list-style: none;
+  color: #cecaca;
+  font-size: 14px;
+  font-weight: 900;
+}
+
+.footernavbar__box-1--right--menu-items {
+  margin: 0 13px;
+}
+
+.footernavbar__box-1--right--menu-items:hover {
+  color: #e2d703;
+  cursor: pointer;
+}
+
+.footernavbar__divider {
+  height: 4px;
+  margin-block: 40px;
+  border-top: 1px solid #11141d;
+  border-bottom: 1px solid hsla(0, 0%, 100%, 0.1);
+}
+
+.footernavbar__box-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footernavbar__box-2--left {
+  width: 50%;
+  height: 100%;
+  display: flex;
+}
+
+.footernavbar__box-2--left--menu {
+  display: flex;
+  list-style: none;
+  color: #bdbdbd;
+  font-size: 13px;
+}
+
+.footernavbar__box-2--left--menu-items {
+  margin: 0 13px;
+  cursor: pointer;
+}
+
+.footernavbar__box-2--left--menu-items:hover {
+  color: #e2d703;
+}
+
+.footernavbar__box-2--right {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.footernavbar__box-2--right-logos {
+  background-color: black;
+  padding: 8px;
+  border-radius: 100%;
+  margin: 0 13px;
+  color: #cecaca;
+  cursor: pointer;
+}
+
+.footernavbar__box-2--right-logos:hover {
+  color: #e2d703;
+}

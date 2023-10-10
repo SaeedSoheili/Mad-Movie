@@ -6,6 +6,7 @@ import TopMovies from "./TopMovies/TopMovies";
 import OurServices from "./OurServices/OurServices";
 import TopSeries from "./TopSeries/TopSeries";
 import TrailStart from "./TrailStart/TrailStart";
+import FooterNavbar from "./FooterNavbar/FooterNavbar";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <OurServices />
       <TopSeries />
       <TrailStart />
+      <FooterNavbar />
     </div>
   );
 }
