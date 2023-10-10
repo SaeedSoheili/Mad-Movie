@@ -7,6 +7,7 @@ import OurServices from "./OurServices/OurServices";
 import TopSeries from "./TopSeries/TopSeries";
 import TrailStart from "./TrailStart/TrailStart";
 import FooterNavbar from "./FooterNavbar/FooterNavbar";
+import FooterCopyright from "./FooterCopyright/FooterCopyright";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <TopSeries />
       <TrailStart />
       <FooterNavbar />
+      <FooterCopyright />
     </div>
   );
 }
