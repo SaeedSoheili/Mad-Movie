@@ -5,7 +5,7 @@ export default function FooterCopyright() {
   return (
     <div className="footercopyright__container">
       <div className="footercopyright__left">
-        <p class="footercopyright__left-text">
+        <p className="footercopyright__left-text">
           © 2023 <a href="#">MadMovie</a>. All Rights Reserved
         </p>
       </div>

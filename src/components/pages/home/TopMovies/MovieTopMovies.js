@@ -3,17 +3,21 @@ import "./MovieTopMovies.css";
 import AccessTimeIcon from "@mui/icons-material/AccessTime";
 import StarIcon from "@mui/icons-material/Star";
 
-export default function MovieTopMovies() {
+export default function MovieTopMovies({ movieData }) {
   return (
     <div className="MovieTopMovies__container">
       <img
         className="MovieTopMovies__cover-image"
-        src="https://codewithsadee.github.io/filmlane/assets/images/movie-1.png"
+        src={
+          movieData["#IMG_POSTER"]
+            ? movieData["#IMG_POSTER"]
+            : "./assets/blank-image-cover.png"
+        }
       />
       <div className="MovieTopMovies__details">
         <div className="MovieTopMovies__details--first-row">
-          <p className="MovieTopMovies__movie-name">Sonic the Hedgehog 2</p>
-          <p className="MovieTopMovies__movie-year">2022</p>
+          <p className="MovieTopMovies__movie-name">{movieData["#TITLE"]}</p>
+          <p className="MovieTopMovies__movie-year">{movieData["#YEAR"]}</p>
         </div>
         <div className="MovieTopMovies__details--second-row">
           <div className="MovieTopMovies__movie-quality">2K</div>
@@ -27,7 +31,7 @@ export default function MovieTopMovies() {
               className="MovieTopMovies__review-icon"
               fontSize="small"
             />
-            <p className="MovieTopMovies__review-rate">7.8</p>
+            <p className="MovieTopMovies__review-rate">9.5</p>
           </div>
         </div>
       </div>
