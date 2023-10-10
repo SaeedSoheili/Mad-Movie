@@ -10,7 +10,7 @@
 }
 
 .slider__image-cover {
-  background-image: url("https://images5.alphacoders.com/132/1328421.png");
+  /* background-image: url("https://images5.alphacoders.com/132/1328421.png"); */
   background-position: center;
   background-size: cover;
   width: 40%;
