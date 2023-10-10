@@ -4,6 +4,7 @@ import NavBar from "./NavBar/NavBar";
 import Slider from "./Slider/Slider";
 import TopMovies from "./TopMovies/TopMovies";
 import OurServices from "./OurServices/OurServices";
+import TopSeries from "./TopSeries/TopSeries";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Slider />
       <TopMovies />
       <OurServices />
+      <TopSeries />
     </div>
   );
 }
