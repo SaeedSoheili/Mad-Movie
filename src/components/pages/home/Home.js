@@ -5,6 +5,7 @@ import Slider from "./Slider/Slider";
 import TopMovies from "./TopMovies/TopMovies";
 import OurServices from "./OurServices/OurServices";
 import TopSeries from "./TopSeries/TopSeries";
+import TrailStart from "./TrailStart/TrailStart";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <TopMovies />
       <OurServices />
       <TopSeries />
+      <TrailStart />
     </div>
   );
 }

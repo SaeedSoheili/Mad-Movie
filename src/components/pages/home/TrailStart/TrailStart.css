@@ -1,0 +1,90 @@
+.trailstart__container {
+  width: 100%;
+  height: 200px;
+  background-color: yellow;
+  background-image: url("/public/assets/trailstart_bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+}
+
+.trailstart__container--left {
+  /* background-color: red; */
+  width: 100%;
+  height: 100%;
+  align-items: start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.trailstart__container--right {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.trailstart__container--left-title {
+  font-size: 30px;
+  font-weight: 700;
+  color: #171d21;
+  margin-bottom: 10px;
+}
+
+.trailstart__container--left-subtitle {
+  font-size: 14px;
+  font-weight: 700;
+  color: #171d21;
+}
+
+.trailstart__container--right-div {
+  width: 100%;
+  max-width: 700px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.trailstart__container--right-input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background-color: #fff;
+  padding-left: 32px;
+  font-size: 18px;
+  padding-right: 210px;
+  border-radius: 5px;
+  box-shadow: -1px 5px 4px hsla(0, 0%, 0%, 0.2);
+}
+
+.trailstart__container--right-input:focus {
+  outline: none;
+}
+
+.trailstart__container--right-button {
+  position: absolute;
+  width: 200px;
+  height: 90%;
+  background-color: black;
+  right: 5px;
+  border: 3px solid black;
+  border-radius: 5px;
+  color: #e2d703;
+  font-weight: 900;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.trailstart__container--right-button:hover {
+  background-color: #e2d703;
+  color: #000;
+  transition: 0.3s;
+}
